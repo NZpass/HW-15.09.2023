@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.AssemblyInfo.cs
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\bin\Debug\net6.0\Ex 62.exe
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\bin\Debug\net6.0\Ex 62.deps.json
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\bin\Debug\net6.0\Ex 62.runtimeconfig.json
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\bin\Debug\net6.0\Ex 62.dll
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\bin\Debug\net6.0\Ex 62.pdb
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.dll
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\refint\Ex 62.dll
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.pdb
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\Ex 62.genruntimeconfig.cache
+C:\Users\User\Desktop\Учеба\ДЗ\15.09.2023\Ex 62\obj\Debug\net6.0\ref\Ex 62.dll

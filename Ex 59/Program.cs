@@ -18,14 +18,14 @@ int range = InputNumbers("Введите диапазон чисел для за
 
 int[,] array = new int[m, n];
 CreateArray(array);
-WriteArray(array);
+PrintArray(array);
 
 int[,] Elements = new int[1, 2];
 Elements = FindPositionSmallElement(array, Elements);
 
-int[,] arrayWithoutLines = new int[array.GetLength(0) - 1, array.GetLength(1) - 1];
-DeleteLines(array, Elements, arrayWithoutLines);
-WriteArray(arrayWithoutLines);
+int[,] arrayExludeLines = new int[array.GetLength(0) - 1, array.GetLength(1) - 1];
+DeleteLines(array, Elements, arrayExludeLines);
+PrintArray(arrayExludeLines);
 
 
 int InputNumbers(string input)
@@ -46,7 +46,7 @@ void CreateArray(int[,] array)
   }
 }
 
-void WriteArray(int[,] array)
+void PrintArray(int[,] array)
 {
   for (int i = 0; i < array.GetLength(0); i++)
   {
@@ -77,7 +77,7 @@ int[,] FindPositionSmallElement(int[,] array, int[,] position)
   return position;
 }
 
-void DeleteLines(int[,] array, int[,] Elements, int[,] arrayWithoutLines)
+void DeleteLines(int[,] array, int[,] Elements, int[,] arrayExludeLines)
 {
   int k = 0, l = 0;
   for (int i = 0; i < array.GetLength(0); i++)
@@ -86,7 +86,7 @@ void DeleteLines(int[,] array, int[,] Elements, int[,] arrayWithoutLines)
     {
       if (Elements[0, 0] != i && Elements[0, 1] != j)
       {
-        arrayWithoutLines[k, l] = array[i, j];
+        arrayExludeLines[k, l] = array[i, j];
         l++;
       }
     }
