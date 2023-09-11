@@ -22,11 +22,9 @@ WriteArray(array);
 
 int[,] Elements = new int[1, 2];
 Elements = FindPositionSmallElement(array, Elements);
-WriteArray(Elements);
 
 int[,] arrayWithoutLines = new int[array.GetLength(0) - 1, array.GetLength(1) - 1];
 DeleteLines(array, Elements, arrayWithoutLines);
-Console.WriteLine($"\nПолучившийся массив:");
 WriteArray(arrayWithoutLines);
 
 
@@ -75,7 +73,7 @@ int[,] FindPositionSmallElement(int[,] array, int[,] position)
       }
     }
   }
-  Console.WriteLine($"\nMинимальный элемент: {temp}");
+  Console.WriteLine($"\nНаименьший элемент - {temp}" + " , на выходе получим следующий массив:");
   return position;
 }
 
